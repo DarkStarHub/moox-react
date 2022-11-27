@@ -1,0 +1,206 @@
+
+.logmodal{
+    position: absolute;    
+    right: 10vw;
+    top: 90px;   
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    /*border-radius: 5px;*/
+    box-shadow: 0px 0px 16px 3px rgb(0 0 0 / 20%); 
+    width:  280px;
+    height: 400px;
+    z-index: 3;      
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}    
+
+.logmodal__inner{
+    width: 70%;
+    margin-top: 50px;
+}    
+
+.logmodal__inner__idbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logmodal__inner__idbox__signbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    cursor: pointer;
+}     
+
+.logmodal__inner__idbox__signbox-signin{
+    width: 100%;
+    border-bottom: 4px solid rgb(158, 158, 158);
+}       
+
+.logmodal__inner__idbox__regbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    cursor: pointer;
+}      
+
+.logmodal__inner__idbox__regbox-reg{
+    width: 100%;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}      
+
+.logmodal__inner-email{
+    width: 100%;
+    height: 40px; 
+    text-indent: 10px;
+    outline: 1px solid #616161;
+    margin-top: 35px;
+}     
+
+.logmodal__inner-password{
+    width: 100%;
+    height: 40px; 
+    text-indent: 10px;
+    outline: 1px solid #616161; 
+    margin-top: 20px;
+}     
+
+.logmodal__inner-forgot{
+    width: 100%;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: right;
+}      
+
+.logmodal__inner-signbutton{
+    width: 100%;
+    height: 40px;
+    background-color: darkslategray;
+    margin-top: 20px;
+    color: white;
+}      
+
+.logmodal__inner__checkbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    margin-top: 10px;
+}    
+
+/*
+.logmodal__inner__checkbox-check{
+
+}*/ 
+
+.logmodal__inner__checkbox-copy{
+    margin-left: 10px;
+    font-size: 12px;
+}      
+
+.logmodal__inner-terms{
+    width: 100%;
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+}  
+
+
+
+
+
+.regmodal{
+    position: absolute;    
+    right: 10vw;
+    top: 90px;   
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    /*border-radius: 5px;*/
+    box-shadow: 0px 0px 16px 3px rgb(0 0 0 / 20%); 
+    width:  280px;
+    height: 500px;
+    z-index: 3; 
+    display: flex;
+    flex-direction: column;    
+    align-items: center;     
+}      
+
+.regmodal__inner{
+    width: 70%;
+    margin-top: 50px;
+}     
+
+.regmodal__inner__idbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-between;
+}        
+
+.regmodal__inner__signbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;  
+    cursor: pointer;
+}      
+
+.regmodal__inner__signbox-sign{
+    width: 100%;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}     
+
+.regmodal__inner__regbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;  
+    cursor: pointer;
+    
+}       
+
+.regmodal__inner__regbox-reg{
+    width: 100%;
+    border-bottom: 4px solid rgb(158, 158, 158);
+}     
+
+.regmodal__inner-topinp{
+    width: 100%;
+    height: 40px; 
+    text-indent: 10px;
+    outline: 1px solid #616161; 
+    margin-top: 35px;
+}      
+
+.regmodal__inner-inp{
+    width: 100%;
+    height: 40px; 
+    text-indent: 10px;
+    outline: 1px solid #616161; 
+    margin-top: 20px;
+}    
+
+.regmodal__inner-register{
+    width: 100%;
+    height: 40px;
+    background-color: darkslategray;
+    padding: 0;
+    border: none;
+    margin-top: 20px;
+    color: white;
+}        
+
+.regmodal__inner-terms{
+    width: 100%;
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+}     

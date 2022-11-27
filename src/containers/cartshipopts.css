@@ -1,0 +1,86 @@
+.cartship{
+    width: 100%;
+    background-color: #f3f3f3; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}   
+
+.cartship__inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}  
+
+.cartship__inner__opts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}    
+
+.cartship__inner__opts__offerbox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;    
+}   
+
+.cartship__inner__opts__offerbox-copy{
+    margin-top: 2vw;
+}     
+
+.cartship__inner__opts__selectbox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;  
+    margin-left: 5vw;
+}       
+
+.cartship__inner__opts__selectbox__form{
+    margin-top: 3vw;
+}     
+
+.cartship__inner__opts__selectbox__form-opt{
+    margin-top: 2vw;
+}   
+
+.cartship__inner__emailbox{
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}     
+
+.cartship__inner__emailbox-email{
+    width: 200px; 
+    height: 40px;
+    border: 0;
+    outline: 0; 
+    border-bottom: 2px solid #616161;
+}    
+
+.cartship__inner__emailbox-btn{
+    padding: 0;
+    border: none;
+    margin-left: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: darkslategray;
+    color: white;
+}    
+           
+.cartship__inner__socialbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}     
+
+.cartship__inner__socialbox-ico{
+    height: 100%;
+    margin: 1%;
+
+} 

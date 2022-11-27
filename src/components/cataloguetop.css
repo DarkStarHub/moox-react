@@ -1,0 +1,42 @@
+.cataloguetop{
+    width: 100%;
+    background-color: #f3f3f3;  
+}    
+
+.cataloguetop__box{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}     
+
+.cataloguetop__box-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2vw;
+}  
+
+.cataloguetop__box-copy{
+    width: 80%;
+    font-size: 12px;
+    margin-top: 2vw;
+} 
+
+.cataloguetop__sort{
+    width: 100%;
+}    
+
+.cataloguetop__sort__inner{
+    width: 30%;
+    margin-left: auto; 
+}    
+
+.cataloguetop__sort__inner-by{
+    font-size: 1.6vw; 
+}   
+
+.cataloguetop__sort__inner-options{
+    width: 60%;
+    font-size: 1.2vw; 
+}     

@@ -1,0 +1,96 @@
+.shippingdesc{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}    
+
+.shippingdesc__inner{
+    width: 96%;
+    display: flex;
+    flex-direction: row; 
+}   
+
+.shippingdesc__inner__shippingbox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px; 
+}     
+
+.shippingdesc__inner__shippingbox-title{
+    font-weight: 700;
+}    
+                    
+.shippingdesc__inner__shippingbox-standard{
+    font-weight: 600;
+    margin-top: .5vw;
+}    
+                    
+.shippingdesc__inner__shippingbox-standardtime{
+    margin-top: .5vw;
+}                      
+                   
+.shippingdesc__inner__shippingbox-express{
+    font-weight: 600;
+    margin-top: 2vw;
+}    
+                    
+.shippingdesc__inner__shippingbox-expresstime{
+    margin-top: .5vw;
+}     
+                   
+.shippingdesc__inner__shippingbox-viewall{
+    font-weight: 600;
+    margin-top: 2vw;
+    text-decoration: underline;
+}     
+
+.shippingdesc__inner__returnbox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px; 
+
+}     
+
+.shippingdesc__inner__returnbox-title{
+    font-weight: 700;
+}     
+
+.shippingdesc__inner__returnbox-titledesc{
+    margin-top: .5vw;
+}     
+
+.shippingdesc__inner__returnbox-returns{
+    font-weight: 600;
+    margin-top: 1vw;
+}    
+
+.shippingdesc__inner__returnbox-returnstime{
+    margin-top: .5vw;
+}     
+
+.shippingdesc__inner__returnbox-exchanges{
+    font-weight: 600;
+    margin-top: 1vw;
+}     
+
+.shippingdesc__inner__returnbox-exchangestime{
+    margin-top: .5vw;
+}    
+
+.shippingdesc__inner__returnbox-visit{
+    font-weight: 600;
+    margin-top: 2vw;
+    text-decoration: underline;
+}     
+
+.shippingdesc__inner__returnbox-more{
+    font-size: 10px;
+    margin-top: .5vw;
+}    

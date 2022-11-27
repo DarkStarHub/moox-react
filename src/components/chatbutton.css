@@ -1,0 +1,35 @@
+.expertchat{
+    position: fixed;
+    right: 0;
+    bottom: 56%;
+    padding: 16px;
+    width: auto;
+    height: 50px;
+    border-radius: 24px;
+    background-color: black;    
+    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 24%), 0px 6px 12px 0px rgb(0 0 0 / 12%);
+    z-index: 3;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    cursor: pointer;
+}   
+
+.expertchat-dot{
+    width: 6px;
+    height: 6px; 
+    border-radius: 3px; 
+    background-color: rgb(24, 213, 0); 
+}
+
+.expertchat-svg{
+    margin: 2px 8px 0
+}
+
+
+.expertchat-copy{
+    margin: 0px;
+}
+

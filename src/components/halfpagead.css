@@ -1,0 +1,30 @@
+.halfpagemain{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.halfpagemain__textbox{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;     
+}
+
+.halfpagemain__textbox-title{
+    font-size: 20;
+    font-weight: 700;
+    margin-top: 1vw;    
+}
+
+
+
+.halfpagemain__textbox-copy{
+    font-size: 16px;
+    margin-top: 1vw;     
+}
+
+.halfpagemain__textbox-link{
+    font-size: 12px;
+    margin-top: 1.5vw;
+    text-decoration: underline;    
+}

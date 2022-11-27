@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*touch-action: none;*/
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./assets/Font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./assets/Font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(./assets/Font/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: BigCalson Regular;
+    src: url(./assets/Font/BigCaslon\ Regular.otf);
+}
+
+@font-face {
+    font-family: NeuzeitGro-Reg;
+    src: url(./assets/Font/NeuzeitGro-Reg.ttf);
+}
+
+@font-face {
+    font-family: Chronical Display Roman;
+    src: url(./assets/Font/Chronicle\ Display\ Roman.otf);
+}
+
+
+html{
+    font-family: Montserrat-Regular;   
+}
+
+
+body{
+    min-height: 100vh;    
+    /*background-color: azure;*/
+    /*background-color: rgb(4, 116, 116); */ 
+}
+
+
+a
+{
+    text-decoration: none;     
+}
+
+a:visited 
+{
+    text-decoration: none;     
+}

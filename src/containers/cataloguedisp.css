@@ -1,0 +1,50 @@
+.cataloguedisp{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}    
+            
+.cataloguedisp__left{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}    
+               
+.cataloguedisp__left-accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+                
+.cataloguedisp__left-panel{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+               
+           
+.cataloguedisp__right{
+    width: 75%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    background-color: #f3f3f3;
+}     
+                
+.cataloguedisp__right__inner{
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin: 1vw 0;
+    justify-content: space-between;
+}     

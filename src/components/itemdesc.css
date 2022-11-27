@@ -1,0 +1,93 @@
+.itemdesc{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.itemdesc__inner{
+    width: 96%;
+    display: flex;
+    flex-direction: row;    
+}  
+
+.itemdec__inner__left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}  
+                    
+.itemdec__inner__left__madebox{
+    display: flex;
+    flex-direction: column;
+}    
+
+.itemdec__inner__left__madebox-title{
+    font-size: 14px;
+    font-weight: 700;
+}      
+                        
+.itemdec__inner__left__madebox-copy{
+    width: 90%;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: .5vw;    
+}
+                    
+.itemdec__inner__left__compbox{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}     
+                        
+.itemdec__inner__left__compbox-title{
+    font-size: 14px;
+    font-weight: 700;
+}  
+                        
+.itemdec__inner__left__compbox-copy{
+    width: 90%;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: .5vw;
+}
+                    
+.itemdec__inner__left__measurebox{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}       
+                       
+.itemdec__inner__left__measurebox-title{
+    font-size: 14px;
+    font-weight: 700;
+}    
+                        
+.itemdec__inner__left__measurebox-copy{
+    width: 90%;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: .5vw;
+}
+                
+.itemdec__inner__right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+                    
+.itemdec__inner__right-title{
+    font-size: 14px;
+    font-weight: 700;
+}    
+
+.itemdec__inner__right-copy{
+    width: 90%;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: .5vw;
+}      

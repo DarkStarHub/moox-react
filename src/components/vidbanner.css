@@ -1,0 +1,48 @@
+.vidbanner{
+    display: flex;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    background-color: white;   
+}
+
+.vidbanner__inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+}
+
+.vidbanner__inner-textbox{
+    position: absolute;
+    width: 80%;
+    height: 13vw;
+    z-index: 1;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    color: white;    
+}
+
+.vidbanner__inner-textbox-title{
+    font-size: 4.5vw;
+    margin-top: -.9vw;   
+}
+
+.vidbanner__inner-textbox-copy{
+    font-size: 1.6vw;  
+    text-align: center;  
+}
+
+.vidbanner__inner-textbox-link{
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;    
+}
+
+.vidbanner__inner-vid{
+    width: 90%;
+}
+
+
+

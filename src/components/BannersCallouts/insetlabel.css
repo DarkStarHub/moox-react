@@ -1,0 +1,28 @@
+.insetlabel{
+    position: absolute;
+    top: 72%;
+    left: 2%;
+    width: 25%;
+    height: 16%;
+    background-color: white;
+    
+    justify-content: space-evenly;  
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}   
+
+.insetlabel-label{
+    font-size: 1.8vw;
+    font-weight: 500;
+
+}      
+
+.insetlabel-desc{
+    font-size: 1.6vw;
+}     
+
+.insetlabel-link{
+    font-size: 1.4vw;
+    text-decoration: underline;
+}    

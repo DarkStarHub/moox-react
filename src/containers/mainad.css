@@ -1,0 +1,10 @@
+.fullwidthimg{ 
+    position: relative;
+    display: flex; 
+    width: 100%;    
+}
+
+.fullwidthimg-img{
+    width:100%;
+    
+}
