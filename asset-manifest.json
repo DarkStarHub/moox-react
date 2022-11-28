@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/moox-react/static/css/main.ab78036e.css",
-    "main.js": "/moox-react/static/js/main.7214f00c.js",
+    "main.js": "/moox-react/static/js/main.d2be4642.js",
     "static/media/main.jpg": "/moox-react/static/media/main.b72914206fc71d7c4dce.jpg",
     "static/media/20200922-v1.png": "/moox-react/static/media/20200922-v1.7179b237c7273ce0a692.png",
     "static/media/160rb.jpg": "/moox-react/static/media/160rb.ad796f5389d72ad7f7ce.jpg",
@@ -204,10 +204,10 @@
     "index.html": "/moox-react/index.html",
     "static/media/klarna-gb-png.webp": "/moox-react/static/media/klarna-gb-png.020070f345fa585381cf.webp",
     "main.ab78036e.css.map": "/moox-react/static/css/main.ab78036e.css.map",
-    "main.7214f00c.js.map": "/moox-react/static/js/main.7214f00c.js.map"
+    "main.d2be4642.js.map": "/moox-react/static/js/main.d2be4642.js.map"
   },
   "entrypoints": [
     "static/css/main.ab78036e.css",
-    "static/js/main.7214f00c.js"
+    "static/js/main.d2be4642.js"
   ]
 }
