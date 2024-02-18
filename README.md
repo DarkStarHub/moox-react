@@ -8,4 +8,5 @@ I feel REACT really shines with SPAs and thought a clothing retail site would be
 - REACT hooks for handling state and updating components (useState, useContext, useRef) were a blessing, not only performance-wise, but development-wise, regarding page functionality. The Shopping bag was a perfect example of that. They made handling that logic very clean, tidy, and reliable.
 - REACT hooks and local storage were used for the shopping bag
 - REACT ROUTER made switching pages easy and snappy.
-- REACT deployment and cross browser compatibility were a cinch. Love working in REACT. 
+- REACT deployment and cross browser compatibility were a cinch. Love working in REACT
+- 
