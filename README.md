@@ -9,4 +9,4 @@ I feel REACT really shines with SPAs and thought a clothing retail site would be
 - REACT hooks and local storage were used for the shopping bag
 - REACT ROUTER made switching pages easy and snappy.
 - REACT deployment and cross browser compatibility were a cinch. Love working in REACT
-- 
+  
