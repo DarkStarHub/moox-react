@@ -14,8 +14,7 @@
     border: 1px solid rgb(158, 158, 158);
     box-shadow: 1px 1px 10px ;
     z-index: 5;
-    padding: 10px;
-    /*visibility: hidden;*/
+    padding: 10px;    
 }
 
 .bag__inner{

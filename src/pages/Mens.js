@@ -2,8 +2,6 @@ import React from 'react';
 import Salebar from '../components/BannersCallouts/Salebar';
 import Mainad from '../containers/Mainad';
 import Header from '../containers/Header';
-//import Headspace from '../components/Headspace';
-
 import fullimg from '../assets/main.jpg';
 import Latestarrivals from '../components/Latestarrivals';
 import Linebreak from '../components/Linebreak';

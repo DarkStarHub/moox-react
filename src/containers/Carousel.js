@@ -1,57 +1,10 @@
 import React, { useEffect, useRef} from 'react';
 import './carousel.css'
-//import Carouselcard from './Carouselcard';
 import {GetDbArray} from '../components/DBHandler'
 import { useNavigate } from 'react-router-dom';
 
 
 
-/*
-function PopCarousel(inc1,inc2,inc3,c1,c2,c3){   
-        
-    const img1 = require(`../${inc1.images.a}`);
-    
-    if(inc1 != null)
-    {
-        c1.current[2].dataset.item = inc1.id;        
-        c1.current[0].src = img1;
-        c1.current[1].innerHTML = inc1.label;        
-    }
-    else{
-        c1.current[2].dataset.item = null;
-        c1.current[0].src = null;
-        c1.current[1].innerHTML = null;       
-    }
-
-    const img2 = require(`../${inc2.images.a}`);
-    
-    if(inc2 != null)
-    {
-        c2.current[2].dataset.item = inc2.id;
-        c2.current[0].src = img2;
-        c2.current[1].innerHTML = inc2.label        
-    }
-    else{
-        c2.current[2].dataset.item = null;
-        c2.current[0].src = null;
-        c2.current[1].innerHTML = null;       
-    }
-    
-    const img3 = require(`../${inc3.images.a}`);
-    
-    if(inc3 != null)
-    {
-        c3.current[2].dataset.item = inc3.id;
-        c3.current[0].src = img3;
-        c3.current[1].innerHTML = inc3.label        
-    } 
-    else{        
-        c3.current[2].dataset.item = null;
-        c3.current[0].src = null;
-        c3.current[1].innerHTML = null;        
-    }
-   
-}*/
 
 let itemObj1,itemObj2,itemObj3;
 let carPos = 0;
@@ -140,14 +93,12 @@ function Carousel(props){
 
     function fadeForward(inc,delay){
         inc.className = "fadeOut";        
-        setTimeout(function() {moveTest(inc)}, delay);
-        //setTimeout(function() {cCard1.current.className = null }, 350);
+        setTimeout(function() {moveTest(inc)}, delay);        
     }
 
     function fadeBack(inc,delay){
         inc.className = "fadeOut";        
-        setTimeout(function() {moveBack(inc)}, delay);
-        //setTimeout(function() {cCard1.current.className = null }, 350);
+        setTimeout(function() {moveBack(inc)}, delay);        
     }
 
 

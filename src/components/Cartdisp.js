@@ -19,13 +19,16 @@ function Cartdisp(props){
     let subTotal = 0;   
     let total = 0;
 
-    
-    
-    bagDataObj2.forEach(element => {
+    if(bagDataObj2 != null)
+    {
+      bagDataObj2.forEach(element => {
         element = JSON.parse(element);       
         subTotal += (element.quantity * element.price);
         bagArray.push(element);        
-    });
+    }); 
+    }
+    
+    
 
     total = props.sendState+subTotal;
 

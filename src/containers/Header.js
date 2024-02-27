@@ -9,7 +9,6 @@ import bagIco from "../assets/Icons/bag.png"
 import Bagmodal from './Bagmodal.js';
 import Logmodal from '../components/Logmodal';
 import Searchmodal from '../components/Searchmodal';
-
 import BagContext from '../store/bag-context';
 
 
@@ -88,10 +87,14 @@ function Header(props){
 
         let totalItems = 0;
 
-        bagDataObj2.forEach(element => {
-            element = JSON.parse(element);
-            totalItems += element.quantity;                
-        });
+        if(bagDataObj2 != null)
+        {
+            bagDataObj2.forEach(element => {
+                element = JSON.parse(element);
+                totalItems += element.quantity;                
+            });
+        }
+
         if(totalItems >0)
         {
             return<>

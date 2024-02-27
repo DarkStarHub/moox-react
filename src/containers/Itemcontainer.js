@@ -98,29 +98,7 @@ function Itemcontainer(){
 
     const [isFiring, setIsFiring] = useState(false)
 
-            
-    /*
-    document.addEventListener('keydown', function(e){
-        if(e.key === '1')
-        { 
-            //TestLoad();
-            sessionStorage.setItem("department", 'mens');
-            
-            //console.log(localStorage.getItem('bagData'));
-            
-        }  
-    });
-
-    document.addEventListener('keydown', function(e){
-        if(e.key === '2')
-        { 
-            //TestLoad();
-            //console.log(localStorage.clear());
-            console.log(sessionStorage.getItem("department"))
-        }  
-    });*/
-
-   
+           
     
     function ChangeMainThumbf(){
 
@@ -150,17 +128,14 @@ function Itemcontainer(){
    
 
     function DupeCheckAdd(inc) // true if a dupe
-    { 
-        //console.log("inc dupeCheckNew",inc)
+    {         
         let bagDataObj;
         if (localStorage.getItem('bagData') && localStorage.getItem('bagData').length > 0)
         {        
-            bagDataObj = JSON.parse(localStorage.getItem('bagData')); 
-            //console.log("existing", bagDataObj);
+            bagDataObj = JSON.parse(localStorage.getItem('bagData'));             
         }
         else// bagData is 0 or doesn't exist yet
-        {
-            //console.log("0 or not existing")
+        {            
             bagDataObj = [];
             bagDataObj.push(JSON.stringify(inc));
             localStorage.setItem('bagData', JSON.stringify(bagDataObj));
@@ -169,10 +144,7 @@ function Itemcontainer(){
         }
 
         //bag data was found
-        //console.log("data found   length",bagDataObj.length)
-
-        //if(window.localStorage.length>0)
-        //{
+        
         for(let i=0;i<bagDataObj.length;i++)
         {
             const storedItem = JSON.parse(bagDataObj[i]);  
@@ -200,7 +172,7 @@ function Itemcontainer(){
                 continue;    
             }
 
-            //console.log("found a dupe");
+            
             //if it gets here, it's a dupe. update the quantity
             storedItem.quantity = storedItem.quantity+1; 
             bagDataObj[i]= JSON.stringify(storedItem);
@@ -208,27 +180,22 @@ function Itemcontainer(){
             window.localStorage.removeItem('bagData');
             window.localStorage.setItem('bagData', JSON.stringify(bagDataObj)); 
             
-            bagCtx.changeBag(JSON.stringify(bagDataObj));           
-            //PopBagModal();
+            bagCtx.changeBag(JSON.stringify(bagDataObj));             
             return;           
         }
-        //}
+        
 
-        //didn't match id's with anything in storage
-        //console.log("wasn't a dupe",inc)
+        //didn't match id's with anything in storage        
         bagDataObj.push(JSON.stringify(inc));
-
-        //const index = window.localStorage.length;            
+                 
         window.localStorage.setItem('bagData', JSON.stringify(bagDataObj)); 
-        bagCtx.changeBag(bagDataObj);
-        //PopBagModal();    
+        bagCtx.changeBag(bagDataObj);         
     }
 
 
     
     useEffect(()=>{           
-        UpdateRecView(curItemObj);       
-        //PopPage();
+        UpdateRecView(curItemObj);         
     }, []);
 
     return(

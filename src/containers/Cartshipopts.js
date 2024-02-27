@@ -1,7 +1,6 @@
 import React from 'react';
 import Linebreak from '../components/Linebreak';
 import './cartshipopts.css'
-
 import youTube from '../assets/SocialIcons/Youtube@svg.svg'; 
 import ig from '../assets/SocialIcons/Instagram@svg.svg';                
 import pint from "../assets/SocialIcons/Pinterest@svg.svg";

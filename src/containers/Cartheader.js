@@ -30,12 +30,10 @@ function Cartheader(){
        
        if(logModalIsOpen === true) 
        {
-        setLogModalIsOpen(false);
-        //console.log("going false",bagModalIsOpen);  
+        setLogModalIsOpen(false);        
        }  
        else{
-        setLogModalIsOpen(true);  
-          //console.log("going true",bagModalIsOpen);      
+        setLogModalIsOpen(true);             
        }                
     };
 
@@ -48,12 +46,10 @@ function Cartheader(){
         
        if(bagModalIsOpen === true) 
        {
-        setBagModalIsOpen(false);
-        //console.log("going false",bagModalIsOpen);  
+        setBagModalIsOpen(false);        
        }  
        else{
-        setBagModalIsOpen(true);  
-          //console.log("going true",bagModalIsOpen);      
+        setBagModalIsOpen(true);              
        }                
     };
 
@@ -63,10 +59,14 @@ function Cartheader(){
 
         let totalItems = 0;
 
-        bagDataObj2.forEach(element => {
-            element = JSON.parse(element);
-            totalItems += element.quantity;                
-        });
+        if(bagDataObj2 != null)
+        {
+            bagDataObj2.forEach(element => {
+                element = JSON.parse(element);
+                totalItems += element.quantity;                
+            });
+        }
+        
         if(totalItems >0)
         {
             return<>

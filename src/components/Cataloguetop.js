@@ -10,8 +10,6 @@ import { useContext } from 'react';
 function Cataloguetop(){   
 
     const sortCtx = useContext(SortContext);
-   
-
     
 
     function setTitle(){

@@ -2,9 +2,7 @@ import React from 'react';
 import './bagmodal.css'
 import BagmodalItem from '../components/BagmodalItem';
 import formatter from '../components/CurConvert';
-//import Linebreak from '../components/Linebreak';
 import { useNavigate } from 'react-router-dom';
-
 import BagContext from '../store/bag-context';
 import { useContext } from 'react';
 
@@ -20,7 +18,7 @@ function Bagmodal(props){
    
     let bagTotal = 0;
     
-    if(bagDataObj2.length >0)
+    if(bagDataObj2 != null)
     {
         bagDataObj2.forEach(element => {
         element = JSON.parse(element);

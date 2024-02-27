@@ -3,7 +3,6 @@ import { AlphaLabelSort, GetCategory, GetDbArray, HighToLowSort, LowToHighSort, 
 import './cataloguedisp.css'
 import Cataloguecard from '../components/Cataloguecard';
 import formatter from '../components/CurConvert';
-
 import SortContext from '../store/sort-context';
 import { useContext } from 'react';
 
