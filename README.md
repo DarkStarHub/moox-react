@@ -17,5 +17,5 @@ Embracing React Hooks, like useState, useContext, and useRef, became a turning p
 React Router played a crucial role in enabling smooth and efficient page transitions within the single-page application, further enriching the user experience. This project provided practical experience in integrating routing solutions with React.
 
 ## Beyond the Project:
-This experience not only equipped me with valuable technical skills but also fostered a genuine affinity for the React ecosystem and its development approach. I am eager to continue building upon my React skillset and leverage this powerful framework in future projects.
+This experience not only equipped me with valuable technical skills but also fostered a genuine affinity for the React ecosystem and its development approach. I am eager to continue building upon my React skillset and leverage this powerful framework in future projects.  
 
