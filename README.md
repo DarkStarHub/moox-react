@@ -8,7 +8,7 @@ This project marked my exciting journey into the world of React development. Rec
 Data Management: I created a small JSON database of product images, utilizing it to drive the logic and functionality of the entire website. 
 
 ## Component Mastery: 
-The modular and reusable nature of React components proved invaluable. I efficiently built and combined simple components to create a well-structured and scalable application. This project significantly enhanced my skills in crafting effective component hierarchies.
+The modular and reusable nature of React components proved invaluable. I efficiently built and combined simple components to create a well-structured and scalable application. This project significantly enhanced my skills in crafting effective component hierarchies.  
 
 ## Leveraging Hooks: 
 Embracing React Hooks, like useState, useContext, and useRef, became a turning point. They not only optimized performance but also streamlined development, especially in managing the shopping cart's functionality. This hands-on experience solidified my understanding of utilizing hooks for state management and component updates.
